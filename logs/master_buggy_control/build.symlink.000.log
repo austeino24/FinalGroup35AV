@@ -1,0 +1,3 @@
+Symlinking /home/nvidia/AV/devel/lib/pkgconfig/master_buggy_control.pc
+Symlinking /home/nvidia/AV/devel/share/master_buggy_control/cmake/master_buggy_controlConfig-version.cmake
+Symlinking /home/nvidia/AV/devel/share/master_buggy_control/cmake/master_buggy_controlConfig.cmake

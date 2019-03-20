@@ -1,4 +1,0 @@
-tfNodes/av_tf2
-/home/nvidia/AV/devel/.private/av_tf2/lib/pkgconfig/av_tf2.pc /home/nvidia/AV/devel/lib/pkgconfig/av_tf2.pc
-/home/nvidia/AV/devel/.private/av_tf2/share/av_tf2/cmake/av_tf2Config.cmake /home/nvidia/AV/devel/share/av_tf2/cmake/av_tf2Config.cmake
-/home/nvidia/AV/devel/.private/av_tf2/share/av_tf2/cmake/av_tf2Config-version.cmake /home/nvidia/AV/devel/share/av_tf2/cmake/av_tf2Config-version.cmake

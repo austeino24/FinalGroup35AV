@@ -1,1 +1,0 @@
-/home/nvidia/AV/devel/.private/map_msgs/share/roseus/ros/map_msgs/msg/ProjectedMapInfo.l

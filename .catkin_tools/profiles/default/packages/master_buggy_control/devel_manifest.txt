@@ -1,0 +1,4 @@
+navigation/master_buggy_control
+/home/nvidia/AV/devel/.private/master_buggy_control/lib/pkgconfig/master_buggy_control.pc /home/nvidia/AV/devel/lib/pkgconfig/master_buggy_control.pc
+/home/nvidia/AV/devel/.private/master_buggy_control/share/master_buggy_control/cmake/master_buggy_controlConfig-version.cmake /home/nvidia/AV/devel/share/master_buggy_control/cmake/master_buggy_controlConfig-version.cmake
+/home/nvidia/AV/devel/.private/master_buggy_control/share/master_buggy_control/cmake/master_buggy_controlConfig.cmake /home/nvidia/AV/devel/share/master_buggy_control/cmake/master_buggy_controlConfig.cmake

@@ -1,5 +1,0 @@
-voxel_grid
-/home/nvidia/AV/devel/.private/voxel_grid/lib/libvoxel_grid.so /home/nvidia/AV/devel/lib/libvoxel_grid.so
-/home/nvidia/AV/devel/.private/voxel_grid/lib/pkgconfig/voxel_grid.pc /home/nvidia/AV/devel/lib/pkgconfig/voxel_grid.pc
-/home/nvidia/AV/devel/.private/voxel_grid/share/voxel_grid/cmake/voxel_gridConfig-version.cmake /home/nvidia/AV/devel/share/voxel_grid/cmake/voxel_gridConfig-version.cmake
-/home/nvidia/AV/devel/.private/voxel_grid/share/voxel_grid/cmake/voxel_gridConfig.cmake /home/nvidia/AV/devel/share/voxel_grid/cmake/voxel_gridConfig.cmake

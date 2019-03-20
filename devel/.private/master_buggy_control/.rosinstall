@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nvidia/AV/devel/.private/master_buggy_control/setup.sh
