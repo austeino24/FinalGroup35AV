@@ -1,0 +1,1 @@
+/home/nvidia/AV/devel/.private/darknet_ros_msgs/share/roseus/ros/darknet_ros_msgs/msg/CheckForObjectsAction.l

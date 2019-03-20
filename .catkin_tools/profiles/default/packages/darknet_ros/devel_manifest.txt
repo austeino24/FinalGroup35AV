@@ -1,0 +1,6 @@
+darknet_ros-master/darknet_ros
+/home/nvidia/AV/devel/.private/darknet_ros/lib/libdarknet_ros_lib.so /home/nvidia/AV/devel/lib/libdarknet_ros_lib.so
+/home/nvidia/AV/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros /home/nvidia/AV/devel/lib/darknet_ros/darknet_ros
+/home/nvidia/AV/devel/.private/darknet_ros/lib/pkgconfig/darknet_ros.pc /home/nvidia/AV/devel/lib/pkgconfig/darknet_ros.pc
+/home/nvidia/AV/devel/.private/darknet_ros/share/darknet_ros/cmake/darknet_rosConfig-version.cmake /home/nvidia/AV/devel/share/darknet_ros/cmake/darknet_rosConfig-version.cmake
+/home/nvidia/AV/devel/.private/darknet_ros/share/darknet_ros/cmake/darknet_rosConfig.cmake /home/nvidia/AV/devel/share/darknet_ros/cmake/darknet_rosConfig.cmake

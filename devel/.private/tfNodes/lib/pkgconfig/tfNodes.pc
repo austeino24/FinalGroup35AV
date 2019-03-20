@@ -1,0 +1,8 @@
+prefix=/home/nvidia/AV/devel/.private/tfNodes
+
+Name: tfNodes
+Description: Description of tfNodes
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/AV/devel/.private/tfNodes/lib 
+Requires: 

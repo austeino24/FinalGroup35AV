@@ -1,0 +1,6 @@
+devel_space: /home/nvidia/AV/devel
+install: false
+install_space: /home/nvidia/AV/install
+profile: default
+source_space: /home/nvidia/AV/src
+workspace: /home/nvidia/AV

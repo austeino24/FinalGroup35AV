@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nvidia/AV/devel/.private/darknet_ros/setup.sh

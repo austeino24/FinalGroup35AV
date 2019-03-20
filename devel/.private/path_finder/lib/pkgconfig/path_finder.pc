@@ -1,0 +1,8 @@
+prefix=/home/nvidia/AV/devel/.private/path_finder
+
+Name: path_finder
+Description: Description of path_finder
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/nvidia/AV/devel/.private/path_finder/lib 
+Requires: 

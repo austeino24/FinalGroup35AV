@@ -1,0 +1,14 @@
+launch mynt eye ros stuff
+	"roslaunch mynt_eye_ros_wrapper mynteye.launch"
+
+launch everything (maybe need to edit launch file)
+	"roslaunch orb_slam2_ros masterL.launch"
+	
+	-launch file found in orb_slam_2_ros/ros/launch
+
+
+ERROR HANDLING (if it doesnt work)
+
+	- make sure you are in AV folder
+	- "source /opt/ros/kinetic/setup.bash"
+	- "source devel/setup.bash"  <--------------------most likely

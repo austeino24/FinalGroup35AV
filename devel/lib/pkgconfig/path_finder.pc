@@ -1,0 +1,1 @@
+/home/nvidia/AV/devel/.private/path_finder/lib/pkgconfig/path_finder.pc

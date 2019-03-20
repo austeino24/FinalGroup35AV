@@ -1,0 +1,18 @@
+digraph G {
+"mynteye_link" -> "mynteye_left_frame"[label="Broadcaster: /mynteye/mynteye_wrapper_node\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1552497998.383 sec old)\nBuffer length: 0.000 sec\n"];
+"base_link" -> "mynteye_link"[label="Broadcaster: /cam_pos_broadcaster\nAverage rate: 10.183 Hz\nMost recent transform: 1552497998.404 ( -0.021 sec old)\nBuffer length: 4.812 sec\n"];
+"mynteye_left_frame" -> "mynteye_right_frame"[label="Broadcaster: /mynteye/mynteye_wrapper_node\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1552497998.383 sec old)\nBuffer length: 0.000 sec\n"];
+"mynteye_left_frame" -> "mynteye_left_rect_frame"[label="Broadcaster: /mynteye/mynteye_wrapper_node\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1552497998.383 sec old)\nBuffer length: 0.000 sec\n"];
+"mynteye_right_frame" -> "mynteye_right_rect_frame"[label="Broadcaster: /mynteye/mynteye_wrapper_node\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1552497998.383 sec old)\nBuffer length: 0.000 sec\n"];
+"mynteye_left_frame" -> "mynteye_disparity_frame"[label="Broadcaster: /mynteye/mynteye_wrapper_node\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1552497998.383 sec old)\nBuffer length: 0.000 sec\n"];
+"mynteye_disparity_frame" -> "mynteye_disparity_norm_frame"[label="Broadcaster: /mynteye/mynteye_wrapper_node\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1552497998.383 sec old)\nBuffer length: 0.000 sec\n"];
+"mynteye_left_frame" -> "mynteye_depth_frame"[label="Broadcaster: /mynteye/mynteye_wrapper_node\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1552497998.383 sec old)\nBuffer length: 0.000 sec\n"];
+"mynteye_left_frame" -> "mynteye_points_frame"[label="Broadcaster: /mynteye/mynteye_wrapper_node\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1552497998.383 sec old)\nBuffer length: 0.000 sec\n"];
+"mynteye_left_frame" -> "mynteye_imu_frame"[label="Broadcaster: /mynteye/mynteye_wrapper_node\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1552497998.383 sec old)\nBuffer length: 0.000 sec\n"];
+"odom" -> "base_link"[label="Broadcaster: /tfStuff\nAverage rate: 1.250 Hz\nMost recent transform: 1552497997.490 ( 0.893 sec old)\nBuffer length: 4.000 sec\n"];
+"map" -> "odom"[label="Broadcaster: /odom_pos_broadcaster\nAverage rate: 10.179 Hz\nMost recent transform: 1552497998.430 ( -0.047 sec old)\nBuffer length: 4.814 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1552497998.383"[ shape=plaintext ] ;
+ }->"map";
+}

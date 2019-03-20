@@ -1,0 +1,8 @@
+prefix=/home/nvidia/AV/install
+
+Name: path_finder
+Description: Description of path_finder
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/nvidia/AV/install/lib 
+Requires: 
