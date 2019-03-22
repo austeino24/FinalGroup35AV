@@ -19,25 +19,10 @@ def sens_array(val):
     # Create motor topics
     pub_motor_rpm = rospy.Publisher('rpm', Int16, queue_size=1)
     pub_motor_dir = rospy.Publisher('dir', Int16, queue_size=1)
+
     # Create Linear Actuator topic
     pub_actuator = rospy.Publisher('pos', Int16, queue_size=1)
 
-    # rpm = 100
-    dir = 1
-    # pos = 500
-    #
-    #
-    # # Publish motor topics
-    # rospy.loginfo(dir)
-    # pub_motor_dir.publish(dir)
-    # rospy.loginfo(rpm)
-    # pub_motor_rpm.publish(rpm)
-    #
-    # # Publish Linear Actuator topics
-    # rospy.loginfo(pos)
-    # pub_actuator.publish(pos)
-    # rate.sleep()
-    
     front_read = []
     rear_read = []
     left_read = []
@@ -53,7 +38,7 @@ def sens_array(val):
     # The below line reads all 4 sensors for forward motion
     #if arr[0] < 48 or arr[1] < 48 or arr[2] < 48 or arr[3] < 48:
 
-    if arr[1] < 10 or arr[2] < 10:
+    if arr[1] < 48 or arr[2] < 48:
         print("\nObjects too close........ Stopping buggy\n")
 
         # dir = random.randrange(0, 2)  # Brake
@@ -66,12 +51,28 @@ def sens_array(val):
         pos = random.randrange(0, 1001)  # linear actuator position 0 ~ 1000
         rospy.loginfo(pos)
         pub_actuator.publish(pos)  # Reverse dir polarity
+    elif arr[0] < 24:
+        pos = 625
+        rospy.loginfo(pos)
+        pub_actuator.publish(pos)
+    elif arr[3] < 24:
+        pos = 425
+        rpm = 50
+        rospy.loginfo(pos)
+        pub_actuator.publish(pos)
+        rospy.loginfo(rpm)
+        pub_motor_rpm.publish(rpm)
+    elif arr[3] < 12 or arr[0] < 12:
+        rpm = 0
+        rospy.loginfo(rpm)
+        pub_motor_rpm.publish(rpm)
     else:
         rpm = 100
+        pos = 525
 
         # Publish motor topics
-        #rospy.loginfo(dir)
-        #pub_motor_dir.publish(dir)
+        rospy.loginfo(pos)
+        pub_actuator.publish(pos)
         rospy.loginfo(rpm)
         pub_motor_rpm.publish(rpm)
 

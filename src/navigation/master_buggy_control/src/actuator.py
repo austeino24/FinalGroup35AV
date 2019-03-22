@@ -5,7 +5,7 @@ from smbus2 import SMBus
 from std_msgs.msg import Int16
 
 la_address = 11
-bus = SMBus(2)
+bus = SMBus(0)
 
 
 def write_array(value):
