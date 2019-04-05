@@ -1,0 +1,8 @@
+prefix=/home/nvidia/AV/devel/.private/usb_cam
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.6
+Cflags: -I/home/nvidia/AV/src/usb_cam/include
+Libs: -L/home/nvidia/AV/devel/.private/usb_cam/lib -lusb_cam
+Requires: 

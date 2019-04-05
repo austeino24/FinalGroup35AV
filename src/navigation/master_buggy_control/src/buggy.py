@@ -1,112 +1,171 @@
 #!/usr/bin/env python
 
-## Simple talker demo that published std_msgs/Strings messages
-## to the 'chatter' topic
-
 import rospy
-import random
-import _random
+import time
+import math
 from std_msgs.msg import Int16
-from std_msgs.msg import Byte
-from std_msgs.msg import ByteMultiArray
+from std_msgs.msg import Float64
 
-def stop_buggy(r,d):
-    r *=-1
-    d = not d
-    return (r, d)
+'''
+*****************************************************************
+*   This function contains the main functionality of the buggy  *
+*   - Prototype buggy parameters -                              *
+*                                                               *
+*   Actuator range:                                             *
+*   ---------------- Max right:   700                           *
+*   ---------------- Max left:    350                           *
+*   Motor max speed:                                            *
+*   ---------------- RPM:         100                           *
+*   Direction:                                                  *
+*   ---------------- Forward:       0                           *
+*   ---------------- Reverse:       1                           *
+*****************************************************************
+'''
 
-def sens_array(val):
-    # Create motor topics
-    pub_motor_rpm = rospy.Publisher('rpm', Int16, queue_size=1)
-    pub_motor_dir = rospy.Publisher('dir', Int16, queue_size=1)
+current_actuator_val = 350
 
-    # Create Linear Actuator topic
-    pub_actuator = rospy.Publisher('pos', Int16, queue_size=1)
+# Main logic for turning towards path here (turns to angle calculated in path_finder)
+def angle_fcb(val):
+    global current_angle
+    if val.data:
+        current_angle = val.data #current angle will be negative for a left turn, positive for right up to 30 deg/either
 
-    front_read = []
-    rear_read = []
-    left_read = []
-    right_read = []
+    angle_diff = math.fabs(current_angle)
 
-    arr = list()
-    arr = val.data
+    if angle_diff < 5:
+        actuator_publish(525)
 
-    #  8ft. => 96in.
-    front_read.append(arr[1])
-    front_read.append(arr[2])
+    elif angle_diff < 12.5:
+        if current_angle > 0:
+            turn('r', 'slight')
+        else:
+            turn('l', 'slight')
 
-    # The below line reads all 4 sensors for forward motion
-    #if arr[0] < 48 or arr[1] < 48 or arr[2] < 48 or arr[3] < 48:
+    elif angle_diff < 20:
+        if current_angle > 0:
+            turn('r', 'moderate')
+        else:
+            turn('l', 'moderate')
 
-    if arr[1] < 48 or arr[2] < 48:
-        print("\nObjects too close........ Stopping buggy\n")
-
-        # dir = random.randrange(0, 2)  # Brake
-        # rospy.loginfo(dir)
-        # pub_motor_dir.publish(dir) # Reverse dir polarity
-        rpm = 0
-        rospy.loginfo(rpm)
-        pub_motor_rpm.publish(rpm)
-
-        pos = random.randrange(0, 1001)  # linear actuator position 0 ~ 1000
-        rospy.loginfo(pos)
-        pub_actuator.publish(pos)  # Reverse dir polarity
-    elif arr[0] < 24:
-        pos = 625
-        rospy.loginfo(pos)
-        pub_actuator.publish(pos)
-    elif arr[3] < 24:
-        pos = 425
-        rpm = 50
-        rospy.loginfo(pos)
-        pub_actuator.publish(pos)
-        rospy.loginfo(rpm)
-        pub_motor_rpm.publish(rpm)
-    elif arr[3] < 12 or arr[0] < 12:
-        rpm = 0
-        rospy.loginfo(rpm)
-        pub_motor_rpm.publish(rpm)
     else:
-        rpm = 100
-        pos = 525
-
-        # Publish motor topics
-        rospy.loginfo(pos)
-        pub_actuator.publish(pos)
-        rospy.loginfo(rpm)
-        pub_motor_rpm.publish(rpm)
+        if current_angle > 0:
+            turn('r', 'sharp')
+        else:
+            turn('l', 'sharp')
 
 
-    # dir = int(not dir)
-    # rospy.loginfo(dir)
-    # pub_motor_dir.publish(dir)
-    # rospy.loginfo(rpm)
-    # pub_motor_rpm.publish(rpm)
+# function for turning. dir = r (right) l (left) and type = sharp (close to 30 deg) moderate (20ish) tiny (10)
+# right = 700 max, left = 350 max
+def turn(dir, type):
+    global current_actuator_val
 
-    # rear_read.append(arr[4])
-    # rear_read.append(arr[5])
-    #
-    # left_read.append(arr[0])
-    # left_read.append(arr[1])
-    #
-    # right_read.append(arr[2])
-    # right_read.append(arr[3])
+    if dir == 'l':
+        if type == 'sharp':
+            while current_actuator_val > 353:
+                actuator_publish(350)
+            actuator_publish(525)
+        elif type == 'moderate':
+            while current_actuator_val > 353:
+                actuator_publish(350)
+            actuator_publish(525)
+        elif type == 'tiny':
+            while current_actuator_val > 353:
+                actuator_publish(350)
+            actuator_publish(525)
 
-    print("arr is " + str(arr))
-    print("front_sensors" + str(front_read))
-    # print("rear_sensors " + str(rear_read))
-    # print("left_sensors " + str(left_read))
-    # print("right_sensors" + str(right_read))
+    elif dir == 'r':
+        if type == 'sharp':
+            while current_actuator_val < 696:
+                actuator_publish(700)
+            actuator_publish(525)
+        elif type == 'moderate':
+            while current_actuator_val < 353:
+                actuator_publish(350)
+            actuator_publish(525)
+        elif type == 'tiny':
+            while current_actuator_val < 353:
+                actuator_publish(350)
+            actuator_publish(525)
+
+
+def length_fcb(val):
+    global length
+    length = val
+
+    i = 0
+
+
+def actuator_fcb(val):
+    global current_actuator_val
+    current_actuator_val = val
+
+    #print("actuator callback")
+    #motor_publish(100)
+
+
+    '''
+    global cond
+    global starttime
+    global act_callback_num
+
+    if val.data < 698 and cond == 1:
+        actuator_publish(700)
+        print("PUBLISHING 700")
+        if act_callback_num == 0:
+            starttime = int(round(time.time()*1000))
+    elif val.data > 528:
+        actuator_publish(525)
+        if cond == 1:
+            print("Final time elapsed: ",  int(round(time.time()*1000)) - starttime)
+        cond = 0
+    else:
+        motor_publish(0)
+
+    act_callback_num += 1 '''
+
+
+def motor_fcb(val):
+    global motor_rpm
+    motor_rpm = val.data
+
+    #motor_publish(0)
+    #dir_publish(0)
+    #print("motor callback")
+
+
+def dir_publish(direction):
+    pub_motor_dir = rospy.Publisher('dir', Int16, queue_size=1)
+    # Publish to topic
+    #rospy.loginfo(direction)
+    pub_motor_dir.publish(direction)
+
+
+def motor_publish(rpm):
+    pub_motor_rpm = rospy.Publisher('rpm', Int16, queue_size=1)
+    # Publish to topic
+    #rospy.loginfo(rpm)
+    pub_motor_rpm.publish(rpm)
+
+
+def actuator_publish(pos):
+    pub_actuator = rospy.Publisher('pos', Int16, queue_size=1)
+    # Publish to topic
+    #rospy.loginfo(pos)
+    pub_actuator.publish(pos)
 
 
 def buggy():
     rospy.init_node('buggy', anonymous=True)  # test
 
     # Initialize Node
-    rospy.Subscriber('sens', ByteMultiArray, sens_array)
-    
-    rate = rospy.Rate(1) # 10hz
-    x = 0
+    rospy.Subscriber('projected_angle', Float64, angle_fcb)
+    rospy.Subscriber('projected_length', Float64, length_fcb)
+
+    print("Subscribing to actuator")
+
+    rospy.Subscriber('actuator_val', Int16, actuator_fcb)
+    rospy.Subscriber('motor_val', Int16, actuator_fcb)
+    rate = rospy.Rate(2)
 
     while not rospy.is_shutdown():
         rate.sleep()

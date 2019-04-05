@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b89e843d-7671-4dce-9752-16dd817f0909" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/catkin_generated/generate_cached_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/catkin_generated/generate_cached_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/catkin_generated/installspace/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/catkin_generated/installspace/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/catkin_generated/installspace/catkin_tools_prebuildConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/catkin_generated/installspace/catkin_tools_prebuildConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/catkin_generated/setup_cached.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/catkin_generated/setup_cached.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/catkin_generated/stamps/catkin_tools_prebuild/_setup_util.py.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/catkin_tools_prebuild/catkin_generated/stamps/catkin_tools_prebuild/_setup_util.py.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_activation_kernels.cu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_avgpool_layer_kernels.cu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_blas_kernels.cu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_col2im_kernels.cu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_convolutional_kernels.cu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_crop_layer_kernels.cu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_deconvolutional_kernels.cu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_dropout_layer_kernels.cu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_im2col_kernels.cu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros/CMakeFiles/darknet_ros_lib.dir/__/darknet/src/darknet_ros_lib_generated_maxpool_layer_kernels.cu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros_msgs/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros_msgs/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/darknet_ros_msgs/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/darknet_ros_msgs/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/master_buggy_control/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/master_buggy_control/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/master_buggy_control/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/master_buggy_control/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/mynt_eye_ros_wrapper/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/mynt_eye_ros_wrapper/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/mynt_eye_ros_wrapper/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/mynt_eye_ros_wrapper/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/orb_slam2_ros/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/orb_slam2_ros/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/orb_slam2_ros/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/orb_slam2_ros/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/path_finder/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/path_finder/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/path_finder/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/path_finder/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/tfNodes/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/tfNodes/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build/tfNodes/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build/tfNodes/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../devel/.catkin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../devel/.catkin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../devel/.private/catkin_tools_prebuild/_setup_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../devel/.private/catkin_tools_prebuild/_setup_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../devel/.private/darknet_ros/lib/libdarknet_ros_lib.so" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../devel/.private/darknet_ros/lib/libdarknet_ros_lib.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/catkin_tools_prebuild/build.cmake.000.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../logs/catkin_tools_prebuild/build.cmake.000.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/catkin_tools_prebuild/build.cmake.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../logs/catkin_tools_prebuild/build.cmake.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.cache-manifest.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.check.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.loadenv.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.make.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.mkdir.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.mkdir.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.mkdir.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.mkdir.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.symlink.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros/build.symlink.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.cache-manifest.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.check.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.loadenv.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.make.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.make.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.make.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.mkdir.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.mkdir.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.mkdir.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.mkdir.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.symlink.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/darknet_ros_msgs/build.symlink.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.cache-manifest.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.check.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.loadenv.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.make.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.mkdir.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.mkdir.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.mkdir.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.mkdir.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.symlink.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/master_buggy_control/build.symlink.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.cache-manifest.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.check.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.loadenv.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.make.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.make.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.make.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.mkdir.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.mkdir.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.mkdir.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.mkdir.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.symlink.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/mynt_eye_ros_wrapper/build.symlink.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.cache-manifest.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.check.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.loadenv.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.make.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.mkdir.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.mkdir.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.mkdir.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.mkdir.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.symlink.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/orb_slam2_ros/build.symlink.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.cache-manifest.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.check.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.loadenv.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.make.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.mkdir.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.mkdir.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.mkdir.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.mkdir.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.symlink.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/path_finder/build.symlink.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.cache-manifest.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.cache-manifest.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.cache-manifest.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.check.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.check.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.loadenv.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.loadenv.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.loadenv.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.make.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.make.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.make.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.mkdir.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.mkdir.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.mkdir.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.mkdir.003.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.mkdir.004.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.mkdir.005.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.symlink.000.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.symlink.001.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../logs/tfNodes/build.symlink.002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../darknet_ros-master/darknet_ros/config/ros.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../darknet_ros-master/darknet_ros/config/ros.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actuator.py" beforeDir="false" afterPath="$PROJECT_DIR$/actuator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buggy.py" beforeDir="false" afterPath="$PROJECT_DIR$/buggy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/motor.py" beforeDir="false" afterPath="$PROJECT_DIR$/motor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sensors.py" beforeDir="false" afterPath="$PROJECT_DIR$/sensors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../path_finder_ros/path_finder/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../path_finder_ros/path_finder/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../path_finder_ros/path_finder/src/path_finder_ros.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../path_finder_ros/path_finder/src/path_finder_ros.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/buggy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+              <folding>
+                <element signature="e#23#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sensors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/actuator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="25" column="17" selection-start-line="17" selection-start-column="4" selection-end-line="25" selection-end-column="17" />
+              <folding>
+                <element signature="e#23#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/motor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>actuator_publish</find>
+      <find>write_array</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/actuator.py" />
+        <option value="$PROJECT_DIR$/motor.py" />
+        <option value="$PROJECT_DIR$/buggy.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="65" />
+    <option name="y" value="52" />
+    <option name="width" value="928" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b89e843d-7671-4dce-9752-16dd817f0909" name="Default Changelist" comment="" />
+      <created>1553540039463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553540039463</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="52" width="928" height="1028" extended-state="4" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.03314917" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/buggy.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/calc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buggy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="33" lean-forward="true" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sensors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/actuator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="17" selection-start-line="17" selection-start-column="4" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="e#23#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/motor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

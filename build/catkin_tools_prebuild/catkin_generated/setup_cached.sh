@@ -8,9 +8,6 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/nvidia/AV/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/aarch64-linux-gnu:/usr/local/cuda-9.0/lib64"
-export PKG_CONFIG_PATH="/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/aarch64-linux-gnu/pkgconfig"
 export PWD="/home/nvidia/AV/build/catkin_tools_prebuild"
-export PYTHONPATH="/opt/ros/kinetic/lib/python2.7/dist-packages"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/nvidia/AV/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/nvidia/AV/build/catkin_tools_prebuild:/home/nvidia/AV/src/darknet_ros-master/darknet_ros_msgs:/home/nvidia/AV/src/darknet_ros-master/darknet_ros:/home/nvidia/AV/src/navigation/master_buggy_control:/home/nvidia/AV/src/MYNT-EYE-S-SDK/wrappers/ros/src/mynt_eye_ros_wrapper:/home/nvidia/AV/src/orb_slam_2_ros:/home/nvidia/AV/src/navigation/path_finder_ros:/home/nvidia/AV/src/tfNodes:/opt/ros/kinetic/share"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/nvidia/AV/devel/.private/catkin_tools_prebuild/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/nvidia/AV/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

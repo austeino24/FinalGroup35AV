@@ -22,10 +22,10 @@ path = None
 curNumObjectsDetected = None
 curImage = None
 
-foc_len = 2.1               # focal length in mm (see 'predict' below)
-fov = 140                   # field of view in degrees (below)
+foc_len = 4                 # focal length in mm (see 'predict' below)
+fov = 60                    # field of view in degrees (below)
 bottle_avg_height = 330.2   # average real life height (13 in, 330.2mm)
-camera_height = 3           # height of the literal camera (3mm)
+camera_height = 2.5         # height of the literal camera (3mm)
 
 class Point:
     def __init__(self,x_init,y_init):
@@ -114,25 +114,25 @@ class PathFinder:
         #print("Nearest bottle distances/ angles: ", lowestDist, "/", lowestAngle, " & ", nextLowestDist, "/", nextLowestAngle)
 
 
-        if lowestAngle < 70:
-            lowestAngle = 70 - lowestAngle
+        if lowestAngle < 30:
+            lowestAngle = 30 - lowestAngle
             xLow = math.sin(math.radians(lowestAngle)) * lowestDist
             yLow = math.cos(math.radians(lowestAngle)) * lowestDist
 
             xLow = -xLow
         else:
-            lowestAngle -= 70
+            lowestAngle -= 30
             xLow = math.sin(math.radians(lowestAngle)) * lowestDist
             yLow = math.cos(math.radians(lowestAngle)) * lowestDist
 
-        if nextLowestAngle < 70:
-            nextLowestAngle = 70 - nextLowestAngle
+        if nextLowestAngle < 30:
+            nextLowestAngle = 30 - nextLowestAngle
             xHigh = math.sin(math.radians(nextLowestAngle)) * nextLowestDist
             yHigh = math.cos(math.radians(nextLowestAngle)) * nextLowestDist
 
             xHigh = -xHigh
         else:
-            nextLowestAngle -= 70
+            nextLowestAngle -= 30
             xHigh = math.sin(math.radians(nextLowestAngle)) * nextLowestDist
             yHigh = math.cos(math.radians(nextLowestAngle)) * nextLowestDist
 

@@ -15,12 +15,19 @@ def write_number(value):
 
 
 def read_number():
-    return bus.read_i2c_block_data(m_address, 0, 2)
+    tmpvar = bus.read_i2c_block_data(m_address, 0, 2)
+
+    realrpm = tmpvar[0]
+    realrpm = (realrpm << 8) | tmpvar[1]
+
+    print("Current motor val: ", realrpm)
+    pos_16 = Int16(data=realrpm)
+    return pos_16
 
 
 def rpm(data):
-    rospy.loginfo(rospy.get_caller_id() + ' RPM = %d', data.data)
-    array = list() # Creates a list (I think)
+    #rospy.loginfo(rospy.get_caller_id() + ' RPM = %d', data.data)
+    array = list()  # Creates a list (I think)
     array.append(1)
     array.append((data.data >> 8) & 0xFF)
     array.append(data.data & 0xFF)
@@ -29,7 +36,7 @@ def rpm(data):
 
     
 def dir(data):
-    rospy.loginfo(rospy.get_caller_id() + ' DIR = %d', data.data)
+    #rospy.loginfo(rospy.get_caller_id() + ' DIR = %d', data.data)
     array = list()  # Creates a list (I think)
     array.append(0)
     array.append(data.data)
@@ -44,6 +51,14 @@ def motor():
 
     rospy.Subscriber('rpm', Int16, rpm)
     rospy.Subscriber('dir', Int16, dir)
+
+    motor_val_pub = rospy.Publisher('motor_val', Int16, queue_size=1)
+
+    rate = rospy.Rate(2)  # 10hz
+
+    while not rospy.is_shutdown():
+        motor_val_pub.publish(read_number())
+        rate.sleep()
     
     # spin() simply keeps python from exiting until this node is stopped
     rospy.spin()

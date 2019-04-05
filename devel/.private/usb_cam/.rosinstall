@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nvidia/AV/devel/.private/usb_cam/setup.sh

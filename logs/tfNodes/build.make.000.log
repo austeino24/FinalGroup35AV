@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target tfNodes[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/tfNodes.dir/src/odometry.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/nvidia/AV/devel/.private/tfNodes/lib/tfNodes/tfNodes[0m
-[100%] Built target tfNodes

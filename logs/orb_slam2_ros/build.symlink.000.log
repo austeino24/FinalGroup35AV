@@ -1,6 +1,0 @@
-Symlinking /home/nvidia/AV/devel/lib/orb_slam2_ros/orb_slam2_ros_mono
-Symlinking /home/nvidia/AV/devel/lib/orb_slam2_ros/orb_slam2_ros_stereo
-Symlinking /home/nvidia/AV/devel/lib/orb_slam2_ros/orb_slam2_ros_rgbd
-Symlinking /home/nvidia/AV/devel/lib/pkgconfig/orb_slam2_ros.pc
-Symlinking /home/nvidia/AV/devel/share/orb_slam2_ros/cmake/orb_slam2_rosConfig-version.cmake
-Symlinking /home/nvidia/AV/devel/share/orb_slam2_ros/cmake/orb_slam2_rosConfig.cmake
